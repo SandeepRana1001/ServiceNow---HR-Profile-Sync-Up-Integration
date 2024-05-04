@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-05-04 13:46:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</application>
+<application_name>Human Resources: Core</application_name>
+<application_scope>sn_hr_core</application_scope>
+<application_version>19.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Integration_Between_Two_ServiceNow_Instances
+Cases will be created in this instance.
+This instance provides API so that  a second PDI can send their HR Profile Data and this instance can create records from that data.</description>
+<inserted/>
+<name>Provider_PDI_Integration_Between_Two_ServiceNow_Instances</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1fd0ebf147314250c2e1a3e7826d43ca</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>sandrana</sys_created_by>
+<sys_created_on>2024-05-04 13:46:52</sys_created_on>
+<sys_id>46fe701c47ce4a50c2e1a3e7826d433a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>sandrana</sys_updated_by>
+<sys_updated_on>2024-05-04 13:46:52</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_93ea68d647358250c2e1a3e7826d4386</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/sn_hr_core/hr_profile_integration</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>HR Profile Integration</name><namespace>sn_hr_core</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>hr_profile_integration</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>sandrana</sys_created_by><sys_created_on>2024-04-28 07:11:41</sys_created_on><sys_id>93ea68d647358250c2e1a3e7826d4386</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Profile Integration</sys_name><sys_package display_value="Human Resources: Core" source="sn_hr_core">d4ac3fff5b311200a4656ede91f91af2</sys_package><sys_policy/><sys_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</sys_scope><sys_update_name>sys_ws_definition_93ea68d647358250c2e1a3e7826d4386</sys_update_name><sys_updated_by>sandrana</sys_updated_by><sys_updated_on>2024-04-28 07:11:41</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>1193937285</payload_hash>
+<remote_update_set display_value="Provider_PDI_Integration_Between_Two_ServiceNow_Instances">46fe701c47ce4a50c2e1a3e7826d433a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sandrana</sys_created_by>
+<sys_created_on>2024-05-04 13:46:52</sys_created_on>
+<sys_id>02fe701c47ce4a50c2e1a3e7826d433b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18f238b94cd0000001</sys_recorded_at>
+<sys_updated_by>sandrana</sys_updated_by>
+<sys_updated_on>2024-05-04 13:46:52</sys_updated_on>
+<table/>
+<target_name>HR Profile Integration</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>fafaa8d6ae358250bbcbb62166ce184c</update_guid>
+<update_guid_history>fafaa8d6ae358250bbcbb62166ce184c:1193937285</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</application>
+<category>customer</category>
+<comments/>
+<name>oauth_entity_90e31436478d0a10c2e1a3e7826d4377</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>60</auth_code_lifespan><auth_url/><certificate_url/><client_id>50e31436b08d0a10187a09f5921b9177</client_id><client_secret>﷞﷟﷒41ff252547f00210c2e1a3e7826d4332﷬﷔1﷬﷭9JSf2dRuFfPWqCtE2Fjv9Q==YQrZP9ZqZgjmTJFq7gj_YkwgkH6THTyz9Is=﷮﷯</client_secret><client_uuid>10e31436478d0a10c2e1a3e7826d4377</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>password</default_grant_type><id_token_lifespan>86400</id_token_lifespan><logo_url/><message_signature_lifespan>60</message_signature_lifespan><mobile_client>false</mobile_client><name>HR Profile Integration Credentials</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url/><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt/><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>sandrana</sys_created_by><sys_created_on>2024-03-23 12:00:53</sys_created_on><sys_id>90e31436478d0a10c2e1a3e7826d4377</sys_id><sys_mod_count>1</sys_mod_count><sys_name>HR Profile Integration Credentials</sys_name><sys_package display_value="Human Resources: Core" source="sn_hr_core">d4ac3fff5b311200a4656ede91f91af2</sys_package><sys_policy/><sys_scope display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</sys_scope><sys_update_name>oauth_entity_90e31436478d0a10c2e1a3e7826d4377</sys_update_name><sys_updated_by>sandrana</sys_updated_by><sys_updated_on>2024-05-04 13:44:36</sys_updated_on><token_url/><type>client</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+<payload_hash>1961539825</payload_hash>
+<remote_update_set display_value="Provider_PDI_Integration_Between_Two_ServiceNow_Instances">46fe701c47ce4a50c2e1a3e7826d433a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sandrana</sys_created_by>
+<sys_created_on>2024-05-04 13:46:52</sys_created_on>
+<sys_id>0afe701c47ce4a50c2e1a3e7826d433a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18f43d9794e0000001</sys_recorded_at>
+<sys_updated_by>sandrana</sys_updated_by>
+<sys_updated_on>2024-05-04 13:46:52</sys_updated_on>
+<table/>
+<target_name>HR Profile Integration Credentials</target_name>
+<type>Application Registries</type>
+<update_domain>global</update_domain>
+<update_guid>c17eb4989cce4a50c7b11f0822792b3e</update_guid>
+<update_guid_history>c17eb4989cce4a50c7b11f0822792b3e:1961539825,90f35436868d0a10d172d810cdb58c56:626711217</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Human Resources: Core">d4ac3fff5b311200a4656ede91f91af2</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_c00ba8d647358250c2e1a3e7826d43d8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;Fetch HR Profiles&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+  // implement resource here
+
+  function insert_or_update_record(grecord, obj, action) {
+    /**
+     * grecord {GlideRecord Object}
+     * obj  {data object}
+     * action {String} Can be update or insert
+     */
+    if (action == "insert") {
+      grecord.initialize();
+    }
+
+    for (var key in obj) {
+      grecord[key] = obj[key];
+    }
+
+    if (action == "insert") {
+      grecord.insert();
+    } else {
+      grecord.update();
+    }
+    return grecord.sys_id.toString();
+  }
+
+  var requestBody = request.body.data;
+  var user = requestBody.user;
+  var hr_profile = requestBody.hr_profile;
+
+  var user_sys_id = "", hr_prof_sys_id='';
+
+  /**
+   * Creating or updating User Record
+   */
+
+  var grec = new GlideRecord("sys_user");
+
+  if (grec.get(user.sys_id)) {
+
+    grec.addEncodedQuery("sys_id=" + user.sys_id);
+    grec.query();
+
+    if (grec.next()) {
+      user_sys_id = insert_or_update_record(grec, user, "update");
+    }
+
+  } else {
+    user_sys_id = insert_or_update_record(grec, user, "insert");
+  }
+
+  var grecprof = new GlideRecord("sn_hr_core_profile");
+
+  if (grecprof.get(hr_profile.sys_id)) {
+    grecprof.addEncodedQuery("sys_id=" + hr_profile.sys_id);
+    grecprof.query();
+
+    if (grecprof.next()) {
+      hr_prof_sys_id = insert_or_update_record(grecprof, hr_profile, "update");
+    }
+
+  } else {
+    hr_prof_sys_id = insert_or_update_record(grecprof, hr_profile, "insert");
+  }
+
+  return {
+    status: "success",
+    message: "Record Created Successfully:",
+    user: user_sys_id,
+    hr_profile: hr_prof_sys_id,
+  };
+
+})(request, response);
+]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/sn_hr_core/hr_profile_integration/fetch_new_hr_profiles&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/fetch_new_hr_profiles&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sandrana&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-28 07:12:21&lt;/sys_created_on&gt;&lt;sys_id&gt;c00ba8d647358250c2e1a3e7826d43d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;28&lt;/sys_mod_count&gt;&lt;sys_name&gt;Fetch HR Profiles&lt;/sys_name&gt;&lt;sys_package display_value="Human Resources: Core" source="sn_hr_core"&gt;d4ac3fff5b311200a4656ede91f91af2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resources: Core"&gt;d4ac3fff5b311200a4656ede91f91af2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_c00ba8d647358250c2e1a3e7826d43d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sandrana&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-04 12:29:26&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="HR Profile Integration"&gt;93ea68d647358250c2e1a3e7826d4386&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>611474591</payload_hash>
+<remote_update_set display_value="Provider_PDI_Integration_Between_Two_ServiceNow_Instances">46fe701c47ce4a50c2e1a3e7826d433a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>sandrana</sys_created_by>
+<sys_created_on>2024-05-04 13:46:52</sys_created_on>
+<sys_id>c2fe701c47ce4a50c2e1a3e7826d433b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18f4394a7b40000001</sys_recorded_at>
+<sys_updated_by>sandrana</sys_updated_by>
+<sys_updated_on>2024-05-04 13:46:52</sys_updated_on>
+<table/>
+<target_name>Fetch HR Profiles</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>c84da898538e4a500d61f763bd3b9568</update_guid>
+<update_guid_history>c84da898538e4a500d61f763bd3b9568:611474591,89dce098bf8e4a5027ff4202108d46d9:-660712363,88dbc0d40d0e4a50e2f52dc27bf35601:41882951,324dfc8ca1ce0a50b397a921141773a3:1593121843,bea2311fde758650b99250fd9c361ba8:-2099557964,c8fec19b19f1865055cd378903e15ee9:877684575,d2ce895bb4f186500eb0a6332974936f:941716676,c97e855b56f186505543afcfb76b3bb3:-332714432,1a5d451b2ef18650142c39bd75362173:-764913178,ea4d051b8af1865042647685d197a06f:-1999946264,0bccc5970df186502e9a895cd84a1b19:262374492,e35c8557f9f186501e5af3cf16487f66:-1996798373,b77b05973df186507c8576fda3f45a0d:-69073449,d66b015786f18650e98005eea9639f9d:1584430671,8c4b455712f186508ee18ea0bf68019a:-779333921,915a41d719b18650e907d0bd19e90593:-452662452,9d4a09d725b18650be8a9ea22de2572e:-1342696320,b1f9c91793f18650d31914ac36937315:1187603086,9b3eb0d7feb18650101b61b62243097d:-1830468287,6a0e381fa6fd46505e9d5133dd099c7c:1294303072,26dc381f53fd4650839c10e3260baa74:-111840049,93cbfcd7bdfd465010cbba85121340ff:1187603086,f5ab70975afd465064bd13f1328a9d88:5475144,9295cc1fd4bd46508372ea18aaeec501:-647020587,808e6c9a5f358250e540cc83b55b6669:1460933282,bf4e689a15358250260b3ebc7724bdaa:1626357886,971ea09a04358250e564b50dc8f712ae:1854402281,872d2c9a1c3582509b71ea77b76e77f5:-843572458,e42b6cd60f358250846581392d3a3a1c:964172698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
